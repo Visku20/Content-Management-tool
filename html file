@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Content Management Tool</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Content Management Tool</h1>
+    <form id="contentForm">
+      <div class="form-group">
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" required>
+      </div>
+      <div class="form-group">
+        <label for="content">Content:</label>
+        <textarea id="content" name="content" required></textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit">Save Content</button>
+      </div>
+    </form>
+    <div id="contentList"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
